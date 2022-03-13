@@ -39,7 +39,32 @@ input:checked + label[for="female"] {
   color: #ce1010;
 }
 
-/* 3 - ceckbox styles */
+/* 3 - checkbox styles */
+
+input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  margin: 0;
+}
+
+label[for="web"],
+label[for="photoshop"],
+label[for="madone"] {
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-left: 26px;
+  background: url(img/checks.png) no-repeat;
+  background-position: 0 -98px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+input:checked + label[for="web"],
+input:checked + label[for="photoshop"],
+input:checked + label[for="madone"] {
+  background-position: 0 -65px;
+  color: #ce1010;
+}
 
 /* 4 - text input styles & fieldsets */
 
