@@ -1,5 +1,22 @@
 /* 1 - base form style */
-
+body {
+  background: #141414;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background: #0d0d0d;
+  margin: 20px;
+  text-align: center;
+}
+form {
+  margin: 20px;
+  color: #eee;
+}
+form p {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
 /* 2 - radio box styles */
 
 /* 3 - ceckbox styles */
@@ -8,4 +25,4 @@
 
 /* 5 - select boxes */
 
-/* 6 - inut validation styles */
+/* 6 - input validation styles */
