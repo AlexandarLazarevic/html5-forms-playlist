@@ -10,3 +10,4 @@ Lesson #2 - Styling Radio Buttons,
 Lesson #3 - Styling Checkboxes,
 Lesson #4 - Styling Text Inputs
 Lesson #5 - Styling Select Boxes
+Lesson #6 - Validation Styles
